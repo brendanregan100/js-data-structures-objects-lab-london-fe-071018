@@ -9,9 +9,6 @@ function updateDriverWithKeyAndValue(obj, key, value) {
   return obj;
 }
 
-const newDriver = updateDriverWithKeyAndValue(driver, "color", "red");{
-  return newDriver;
-} 
 
 // destructivelyUpdateDriverWithKeyAndValue()
 
