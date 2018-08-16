@@ -4,7 +4,7 @@ const driver = {
   type: 'Ferrari',
 };
 
-function updateDriverWithKeyAndValue(){
+function updateDriverWithKeyAndValue(drive, color, red){
   const newDriver = {
   }
 }
