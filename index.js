@@ -1,7 +1,7 @@
 // Write your solution in this file!
 
 const driver = {
-  pippi:{type: 'Ferrari'}
+  type: 'Ferrari'
 };
 
 function updateDriverWithKeyAndValue(obj, key, value) {
@@ -23,7 +23,6 @@ function deleteFromDriverByKey(obj, key) {
 
 
 function destructivelyDeleteFromDriverByKey(obj, key) {
-  const clonedObj2 = Object.assign({}, obj);
-  delete clonedObj2[key];
-  return clonedObj2;
+  delete obj[key];
+  return obj;
 }
