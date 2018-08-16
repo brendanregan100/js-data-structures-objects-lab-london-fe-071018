@@ -1,7 +1,7 @@
 // Write your solution in this file!
 
 const driver = {
-  name:{type: 'Ferrari'}
+  type: 'Ferrari'
 };
 
 function updateDriverWithKeyAndValue(obj, key, value) {
@@ -23,7 +23,6 @@ function deleteFromDriverByKey(obj, key) {
 
 
 function destructivelyDeleteFromDriverByKey(obj, key) {
-  const clonedObj = Object.assign({}, obj);
-  delete clonedObj[key];
-  return clonedObj;
+  delete Obj[key];
+  return Obj;
 }
