@@ -4,9 +4,9 @@ const driver = {
   type: 'Ferrari',
 };
 
-function updateDriverWithKeyAndValue(driver, key, value) {
-  driver[key] = value;
-  return driver;
+function updateDriverWithKeyAndValue(obj, key, value) {
+  obj[key] = value;
+  return obj;
 }
 
 const newDriver = updateDriverWithKeyAndValue(driver, "color", "red");
