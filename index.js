@@ -22,4 +22,7 @@ function deleteFromDriverByKey(obj, key) {
 }
 
 
-// destructivelyDeleteFromDriverByKey()
+function destructivelyDeleteFromDriverByKey(obj, key) {
+  const clonedObj = Object.assign({}, obj);
+  return clonedObj;
+}
