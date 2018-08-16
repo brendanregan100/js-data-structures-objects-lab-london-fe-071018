@@ -1,7 +1,7 @@
 // Write your solution in this file!
 
 const driver = {
-  type: 'Ferrari',
+  name:{type: 'Ferrari'}
 };
 
 function updateDriverWithKeyAndValue(obj, key, value) {
