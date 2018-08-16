@@ -5,8 +5,8 @@ const driver = {
 };
 
 function updateDriverWithKeyAndValue(obj, key, value) {
-  const cloneDriver = { ...obj };
-  cloneDriver[key] = value
+  const cloneDriver = Object.assign({}, obj);
+  cloneDriver[key] = value;
   return cloneDriver;
 }
 
