@@ -10,6 +10,7 @@ function updateDriverWithKeyAndValue(obj, key, value) {
 }
 
 const newDriver = updateDriverWithKeyAndValue(driver, "color", "red");
+  return newDriver;
  
 // destructivelyUpdateDriverWithKeyAndValue()
 
