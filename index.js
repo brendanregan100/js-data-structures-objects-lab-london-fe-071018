@@ -10,7 +10,9 @@ function updateDriverWithKeyAndValue(obj, key, value) {
   return cloneDriver;
 }
 
-// destructivelyUpdateDriverWithKeyAndValue()
+function destructivelyUpdateDriverWithKeyAndValue(obj, key, value){
+  const mutateDriver = 
+}
 
 // deleteFromDriverByKey()
 
