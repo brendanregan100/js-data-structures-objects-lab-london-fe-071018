@@ -5,8 +5,9 @@ const driver = {
 };
 
 function updateDriverWithKeyAndValue(obj, key, value) {
-  const driver = { driver,...obj };
-  return driver;
+  const cloneDriver = { ...obj };
+  cloneDriver[key] = value
+  return cloneDriver;
 }
 
 // destructivelyUpdateDriverWithKeyAndValue()
