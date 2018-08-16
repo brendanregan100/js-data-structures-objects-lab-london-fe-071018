@@ -6,8 +6,7 @@ const driver = {
 
 function updateDriverWithKeyAndValue()
 
-const newDriver = updateDriverWithKeyAndValue(drive, color, red){
-  
+const newDriver = updateDriverWithKeyAndValue(drive, color, red);
  
 // destructivelyUpdateDriverWithKeyAndValue()
 
