@@ -10,7 +10,7 @@ function updateDriverWithKeyAndValue(obj, key, value) {
   return cloneDriver;
 }
 
-function destructivelyUpdateDriverWithKeyAndValue(obj, key, value) {
+function destructivelyUpdateDriverWithKeyAndValue(key, value) {
   obj[key] = value;
   return obj;
 }
